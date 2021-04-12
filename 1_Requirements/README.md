@@ -69,7 +69,7 @@ O(N), the amount of memory needed to run the algorithm i.e, space complexity.
 
 ## SWOT Analysis
 
-<img width="459" alt="SWOT" src="https://user-images.githubusercontent.com/62166597/114440231-83727880-9be7-11eb-8c3c-04c4cf9fcc9f.PNG">
+<img width="750" alt="SWOT" src="https://user-images.githubusercontent.com/62166597/114440231-83727880-9be7-11eb-8c3c-04c4cf9fcc9f.PNG">
 
 
 ## 4W's and 1'H
