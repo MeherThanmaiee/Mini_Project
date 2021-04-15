@@ -8,7 +8,7 @@ void room_dealloc(){
 		int count,j=0;
 	 printf("enter name of customer:");
 	fflush(stdin);
-	 gets(n);
+	 scanf("%s",n);
 	 for(j=0;j<100;j++)
 	 {
 	 if(strcmp(c[j].name,n)==0)
