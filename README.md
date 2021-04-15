@@ -13,3 +13,4 @@ Folder             | Description
 `2_Designs`         | Documents specifying design details
 `3_Implementation` | All code and documentation
 `4_Testplan`      | Documents with test plans and procedures
+`5_Imagesandvideos`   | Images and Videos 
