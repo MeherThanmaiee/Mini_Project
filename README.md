@@ -7,8 +7,8 @@ The hotel management system is a web based application that allows the hotel man
 system very flexible and convenient. To manage the entire activities manually on paper is very time taken process. This application provides flexibility to manage the entire system from a single online system.
 
 # SDLC Activity Based Learning
-Build |
-|---------|------------|
+  Build |  
+|---------|
 [![C/C++ CI](https://github.com/MeherThanmaiee/Mini_Project/actions/workflows/c.yml/badge.svg?branch=main)](https://github.com/MeherThanmaiee/Mini_Project/actions/workflows/c.yml)
 
 ## Folder Structure
