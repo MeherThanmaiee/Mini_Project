@@ -5,7 +5,7 @@ void billing(){
 		 int j=0;
 	  printf("enter customer name:");
 	   fflush(stdin);
-	  gets(n);
+	 scanf("%s",n);
 	  for(j=0;j<100;j++)
 	  {
 	  if(strcmp(c[j].name,n)==0)
