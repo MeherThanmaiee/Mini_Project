@@ -24,7 +24,15 @@ else
 	  EXEC = out
    endif
 endif
+PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
 
+TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
+
+INCLUDE_LIBS = -lcunit
+
+PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
+
+.PHONY: run clean test doc 
 
 all:
 	gcc -I $(INC_H) $(SRC) main.c -o $(call FixPath,$(PROJ_NAME).$(EXEC))
