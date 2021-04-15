@@ -1,7 +1,8 @@
 PROJ_NAME = main
 TEST_PROJ_NAME = Test_$(PROJ_NAME)
 
-SRC =src/billing.c\
+SRC =src/avail.c\
+src/billing.c\
 src/cusdetails.c\
 src/features.c\
 src/roomalloc.c\
