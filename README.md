@@ -20,3 +20,4 @@ Folder             | Description
 `3_Implementation` | All code and documentation
 `4_Testplan`      | Documents with test plans and procedures
 `5_Imagesandvideos`   | Images and Videos 
+`6_Report`   | Document consisting the evaluation sheet 
