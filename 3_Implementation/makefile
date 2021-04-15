@@ -7,7 +7,7 @@ src/cusdetails.c\
 src/features.c\
 src/roomalloc.c\
 src/roomdealloc.c\
-
+BUILD = build
 
 
 INC_H = inc
@@ -38,4 +38,11 @@ test:
 clean:
 	
 	$(RM) *.$(EXEC)
+
+$(BUILD):
+	mkdir build
+all: $(SRC) $(BUILD)
+	    gcc -I inc $(UNI) $(SRC) $(INC) $(TEST_SRC).c -o $(PROJECT_OUTPUT)
+run1:
+	./$(PROJECT_OUTPUT)
 	
