@@ -5,7 +5,7 @@ char n[20];
 		int count,j=0;
 	 printf("enter name of customer:");
 	 fflush(stdin);
-	 gets(n);
+	 scanf("%s",n);
 	 for(j=0;j<100;j++)
 	 {
 	 if(strcmp(c[j].name,n)==0)
@@ -21,14 +21,14 @@ char n[20];
 	       printf("-delux\n-AC\n-Non_AC\n");
 	       printf("enter room type in alphabets as mentioned above:");
 	       fflush(stdin);
-	       gets(a[j].roomtype);
+	       scanf("%s",a[j].roomtype);
 	       printf("--------------\n");
 	       printf("FOOD AVAILABLE\n");
 	       printf("--------------\n");
 	       printf("-non_veg\n-veg\n");
 	       printf("please enter the food catagory in alphabet as above:");
 	     fflush(stdin);
-	       gets(a[j].foodtype);
+	       scanf("%s",a[j].foodtype);
 	     }
 	  }
 	}
