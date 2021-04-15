@@ -4,6 +4,6 @@
 void avail()
 	{
 		int count=100;
-		 printf("");
+		 
       printf("%d rooms are availible\n",count);
 	}
