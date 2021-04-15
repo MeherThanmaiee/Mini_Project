@@ -16,13 +16,13 @@ void customer_details(){
 	 {
 	  printf("enter name:\n");
 	fflush(stdin);
-	  gets(c[i].name) ;
+	  scanf("%s",c[i].name);
 	  printf("enter address:\n");
 	fflush(stdin);
-	  gets(c[i].address);
+	  scanf("%s",c[i].address);
 	   printf("enter phone number:\n");
     fflush(stdin);
-	  gets(c[i].phno);
+	 scanf("%s",c[i].phno);
        printf("enter period of stay in days:\n");
 	  scanf("%d",&c[i].period);
 	  i=i+1;
@@ -34,7 +34,7 @@ void customer_details(){
 		  char n[20];
 	    printf("enter the name of customer:\n");
 	    fflush(stdin);
-	    gets(n);
+	    scanf("%s",n);
 	    for(j=0;j<100;j++)
 	    {
 	     if(strcmp(c[j].name,n)==0)
