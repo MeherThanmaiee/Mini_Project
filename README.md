@@ -8,9 +8,9 @@ system very flexible and convenient. To manage the entire activities manually on
 
 
 # SDLC Activity Based Learning
-Build | Code Quality |
-|---------|------------|
-[![C/C++ CI](https://github.com/MeherThanmaiee/Mini_Project/actions/workflows/c.yml/badge.svg)](https://github.com/MeherThanmaiee/Mini_Project/actions/workflows/c.yml)|[![Static Code Quality- Cppcheck](https://github.com/MeherThanmaiee/Mini_Project/actions/workflows/cpp.yml/badge.svg)](https://github.com/MeherThanmaiee/Mini_Project/actions/workflows/cpp.yml)|
+Build | Code Quality | Git Inspector |
+|---------|------------|-------------|
+[![C/C++ CI](https://github.com/MeherThanmaiee/Mini_Project/actions/workflows/c.yml/badge.svg)](https://github.com/MeherThanmaiee/Mini_Project/actions/workflows/c.yml)|[![Static Code Quality- Cppcheck](https://github.com/MeherThanmaiee/Mini_Project/actions/workflows/cpp.yml/badge.svg)](https://github.com/MeherThanmaiee/Mini_Project/actions/workflows/cpp.yml)|[![Contribution Check - Git Inspector](https://github.com/MeherThanmaiee/Mini_Project/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/MeherThanmaiee/Mini_Project/actions/workflows/gitinspector.yml)
 
 ## Folder Structure
 Folder             | Description
